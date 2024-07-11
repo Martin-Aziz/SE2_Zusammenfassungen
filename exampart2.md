@@ -124,3 +124,44 @@ Sie sollen eine webbasierte Anwendung für ein Bibliotheksmanagementsystem entwi
 **Einsatz:** Besonders geeignet für Projekte, die eine komplexe Modellierung der realen Welt erfordern, wie z.B. Geschäfts- oder Unternehmensanwendungen, bei denen verschiedene Entitäten und deren Interaktionen modelliert werden müssen.
 
 Der Hauptunterschied liegt darin, dass die funktionale Programmierung sich auf unveränderliche Daten und Funktionen konzentriert, während die objektorientierte Programmierung Objekte und ihre Interaktionen in den Vordergrund stellt.
+
+# Aufgaben  4 
+# Aufgabe 1: Prozesse
+
+## a) Ordnen Sie die folgenden Elemente dem Scrum-Prozess zu:
+- **Sprint Planning**
+- **Daily Scrum**
+- **Product Backlog**
+- **Sprint Review**
+- **Sprint Retrospective**
+
+## b) Wahr oder falsch?
+**Aussage:** Im Extreme Programming (XP) wird auf umfangreiche Dokumentation besonders viel Wert gelegt.  
+**Antwort:** Falsch
+
+**Begründung:** Extreme Programming (XP) legt den Fokus auf ständige Kommunikation, Feedback und die laufende Verbesserung des Codes. Umfangreiche Dokumentation wird nicht als so wichtig erachtet wie funktionierender Code und direkte Kommunikation.
+
+# Aufgabe 2: Architektur
+
+Sie sollen eine mobile App für ein Carsharing-Unternehmen entwickeln. Die App soll es Benutzern ermöglichen, Autos zu lokalisieren, zu buchen und zu entriegeln. Nennen Sie zwei UML-Diagramme, die Sie für den Entwurf für sinnvoll halten, beschreiben Sie sie kurz und erläutern Sie, wie die Diagramme in diesem Fall zum Einsatz kommen.
+
+## Anwendungsfalldiagramm (Use Case Diagram):
+**Beschreibung:** Zeigt die Interaktionen zwischen Benutzern und dem System.  
+**Einsatz:** Hilft bei der Identifizierung der Hauptfunktionen wie "Auto lokalisieren", "Auto buchen", "Auto entriegeln" etc. Dies unterstützt die Definition der Anforderungen und die Gestaltung der Benutzerinteraktionen.
+
+## Sequenzdiagramm:
+**Beschreibung:** Stellt die zeitliche Abfolge von Interaktionen zwischen verschiedenen Objekten im System dar.  
+**Einsatz:** Hilft bei der Modellierung der Interaktionen und Abläufe, z.B. wie ein Benutzer ein Auto bucht und entriegelt. Dies ist wichtig, um die Logik und den Ablauf der Funktionen zu verstehen und zu optimieren.
+
+# Aufgabe 3: Verschiedenes
+
+## Black-Box-Testing:
+**Beschreibung:** Testmethode, bei der die internen Strukturen oder das Verhalten der Anwendung nicht bekannt sind. Tester konzentrieren sich auf die Eingaben und erwarteten Ausgaben.  
+**Beispiel:** Testen einer Login-Funktion, indem verschiedene Kombinationen von Benutzernamen und Passwörtern eingegeben werden, um zu überprüfen, ob der Zugang korrekt gewährt oder verweigert wird.  
+**Einsatz:** Besonders geeignet für Systemtests, bei denen das Gesamtsystem als Ganzes geprüft wird, ohne die interne Logik zu kennen.
+
+## White-Box-Testing:
+**Beschreibung:** Testmethode, bei der die internen Strukturen oder das Verhalten der Anwendung bekannt sind. Tester überprüfen den Codefluss, die Logik und die internen Prozesse.  
+**Beispiel:** Testen einer Sortierfunktion, indem der Quellcode überprüft wird, um sicherzustellen, dass alle möglichen Wege und Verzweigungen korrekt abgedeckt und getestet werden.  
+**Einsatz:** Besonders geeignet für Unit-Tests, bei denen die Funktionalität einzelner Codeeinheiten detailliert überprüft wird.
+
