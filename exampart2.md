@@ -165,3 +165,41 @@ Sie sollen eine mobile App für ein Carsharing-Unternehmen entwickeln. Die App s
 **Beispiel:** Testen einer Sortierfunktion, indem der Quellcode überprüft wird, um sicherzustellen, dass alle möglichen Wege und Verzweigungen korrekt abgedeckt und getestet werden.  
 **Einsatz:** Besonders geeignet für Unit-Tests, bei denen die Funktionalität einzelner Codeeinheiten detailliert überprüft wird.
 
+# Aufgaben 5 
+# Aufgabe 1: Prozesse
+
+## a) Ordnen Sie die folgenden Phasen dem Rational Unified Process (RUP) zu:
+- **Inception**
+- **Elaboration**
+- **Construction**
+- **Transition**
+
+## b) Wahr oder falsch?
+**Aussage:** Das Prototyping-Modell eignet sich besonders gut für Projekte mit sehr klaren und stabilen Anforderungen.  
+**Antwort:** Falsch
+
+**Begründung:** Das Prototyping-Modell eignet sich besonders gut für Projekte, bei denen die Anforderungen unklar oder instabil sind. Es ermöglicht das frühe Erstellen und Überprüfen von Prototypen, um Anforderungen zu klären und anzupassen.
+
+# Aufgabe 2: Architektur
+
+Sie sollen ein webbasiertes Customer Relationship Management (CRM) System für ein mittelständisches Unternehmen entwickeln. Das System soll Kundendaten verwalten, Verkaufsprozesse unterstützen und Analysen ermöglichen. Nennen Sie zwei UML-Diagramme, die Sie für den Entwurf für sinnvoll halten, beschreiben Sie sie kurz und erläutern Sie, wie die Diagramme in diesem Fall zum Einsatz kommen.
+
+## Anwendungsfalldiagramm (Use Case Diagram):
+**Beschreibung:** Zeigt die Interaktionen zwischen Benutzern und dem System.  
+**Einsatz:** Hilft bei der Identifizierung der Hauptfunktionen wie "Kundendaten verwalten", "Verkaufsprozesse unterstützen", "Analysen durchführen" etc. Dies unterstützt die Definition der Anforderungen und die Gestaltung der Benutzerinteraktionen.
+
+## Klassendiagramm:
+**Beschreibung:** Stellt die Struktur des Systems dar, einschließlich Klassen, Attribute und Beziehungen.  
+**Einsatz:** Hilft bei der Modellierung der Datenstruktur für Kundendaten, Verkaufsinformationen und Analyseberichte. Dies ist wichtig für das Design der Datenbank und die Implementierung der Geschäftslogik des Systems.
+
+# Aufgabe 3: Verschiedenes
+
+## Synchroner Kommunikation:
+**Beschreibung:** Beide Kommunikationspartner müssen gleichzeitig aktiv sein, um Informationen auszutauschen. Der Sender wartet auf eine Antwort des Empfängers.  
+**Beispiel:** Videoanrufe über Skype, bei denen beide Teilnehmer gleichzeitig online sein und direkt miteinander kommunizieren müssen.  
+**Einsatz:** Besonders geeignet für Echtzeitanwendungen, bei denen sofortige Rückmeldungen erforderlich sind.
+
+## Asynchroner Kommunikation:
+**Beschreibung:** Die Kommunikationspartner müssen nicht gleichzeitig aktiv sein. Der Sender kann Nachrichten senden, die der Empfänger später abrufen und verarbeiten kann.  
+**Beispiel:** E-Mail-Kommunikation, bei der Nachrichten gesendet und zu einem späteren Zeitpunkt vom Empfänger gelesen werden können.  
+**Einsatz:** Besonders geeignet für Anwendungen, bei denen sofortige Rückmeldungen nicht erforderlich sind, und für die Kommunikation über unterschiedliche Zeitzonen hinweg.
